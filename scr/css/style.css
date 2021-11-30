@@ -439,6 +439,7 @@ textarea{
     flex-direction: column;
     display: block;
     width: 100%;
+    align-items: center;
 
   }
   .conteudo-servicos{
@@ -447,10 +448,12 @@ textarea{
   .servicos{
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
   .servicos-2{
     flex-direction: column;
     padding: 0;
+    align-items: center;
   }
   .contato-principal{
     flex-direction: column;
