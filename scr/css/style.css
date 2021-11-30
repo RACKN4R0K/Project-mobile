@@ -446,6 +446,7 @@ textarea{
     flex-direction: column;
   }
   .servicos{
+    margin-left: -40px;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -454,6 +455,7 @@ textarea{
     flex-direction: column;
     padding: 0;
     align-items: center;
+    margin-left: -30px;
   }
   .contato-principal{
     flex-direction: column;
@@ -462,9 +464,9 @@ textarea{
   }
   .global-contato{
     flex-direction: column;
-    margin: 10px;
-    padding: 0px;
     align-items: center;
+    padding: 0;
+    margin-left: -35px;
   }
   #divisoria{
     display: none;
@@ -473,6 +475,11 @@ textarea{
     width: 350px;
     margin-top: 50px;
     border: 1px solid #B76E79;
+    align-items: center;
+    margin-left: 32px;
+  }
+  .redes p{
+    margin-bottom: 40px;
   }
   .mapa{
     width: 100%;
@@ -483,7 +490,7 @@ textarea{
     width: 300px;
     height: 200px;
     padding: 0;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-bottom: 75px;
   }
   .sobre{
@@ -504,7 +511,7 @@ textarea{
     margin-left: 15%;
   }
 }
-@media (max-width: 500px){
+@media(min-width:401px) and (max-width: 500px) {
   .cabecalhoPrincipal{
     align-items: left;
     justify-content: none;
@@ -522,7 +529,7 @@ textarea{
     display: none;
   }
   .span{
-    width: 350px;
+    width: 380px;
     border: 1px solid #B76E79;
   }
   .Pricipal-home{
@@ -536,11 +543,15 @@ textarea{
     flex-direction: column;
   }
   .servicos{
+    margin-left: -40px;
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
   .servicos-2{
+    margin-left: -105px;
     flex-direction: column;
+    align-items: center;
   }
   .contato-principal{
     flex-direction: column;
@@ -549,7 +560,7 @@ textarea{
   }
   .global-contato{
     flex-direction: column;
-    margin: 10px;
+    margin-left: -35px;
     padding: 0px;
     align-items: center;
   }
@@ -561,7 +572,10 @@ textarea{
     width: 350px;
     margin-top: 50px;
     border: 1px solid #B76E79;
-    margin-left: 16px;
+    margin-left: 30px;
+  }
+  .redes p{
+    margin-bottom: 35px;
   }
   .mapa{
     width: 100%;
